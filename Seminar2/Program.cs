@@ -195,4 +195,4 @@ int c =20;
 // Zadacha11();
 // Zadacha13();
 // Zadacha14();
- Zadacha16();
+//Zadacha16();
