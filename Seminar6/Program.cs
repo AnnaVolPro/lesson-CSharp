@@ -4,8 +4,7 @@
     return Convert.ToInt32(Console.ReadLine());
 }
 
-void FillArray(int[] numbers, int MinValue = 0, int MaxValue = 100) // Придав значения мин и макс по умолчанию, мы можем не заполнять в вызове функции параметры, 
-                                                                    // они будут в диапозоне по умолчанию (от 0 до 100)
+void FillArray(int[] numbers, int MinValue = 0, int MaxValue = 100) // Придав значения мин и макс по умолчанию, мы можем не заполнять в вызове функции параметры,                                                                     // они будут в диапозоне по умолчанию (от 0 до 100)
 {
     MaxValue++; // чтобы вручную не записывать максимальное значение на 1 больше
     Random random = new Random();
