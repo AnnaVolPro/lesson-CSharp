@@ -47,7 +47,7 @@ void Zadacha1()
     FillArray(arrayTwo, 1, 9);
     PrintArray(arrayTwo);
 
-    if (arrayOne.GetLength(1) == arrayTwo.GetLength(0) || arrayOne.GetLength(0) == arrayTwo.GetLength(1))
+    if (  arrayOne.GetLength(0) == arrayTwo.GetLength(1))
     {
         rows = arrayOne.GetLength(0);
         columns = arrayTwo.GetLength(1);
